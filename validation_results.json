@@ -1,0 +1,20 @@
+{
+  "database": "02_individual/repair_service.db",
+  "tables": {
+    "customers": 9,
+    "device_types": 5,
+    "devices": 12,
+    "employees": 4,
+    "repair_statuses": 5,
+    "repair_orders": 12,
+    "services": 8,
+    "order_services": 17
+  },
+  "query_count": 15,
+  "all_queries_executed": true,
+  "foreign_key_violations": 0,
+  "indexes": [
+    "idx_devices_customer_id",
+    "idx_repair_orders_status_received"
+  ]
+}

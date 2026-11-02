@@ -1,0 +1,84 @@
+{
+  "sqlite_version": "3.53.1",
+  "status": "passed",
+  "checks": [
+    {
+      "database": "01_practice/04_Создание_БД/practice.db",
+      "integrity": "ok",
+      "foreign_keys": "ok"
+    },
+    {
+      "database": "01_practice/06_Ограничения/06_Изменение_структуры/practice.db",
+      "integrity": "ok",
+      "foreign_keys": "ok"
+    },
+    {
+      "database": "01_practice/06_Ограничения/08_Ссылочная_целостность/practice.db",
+      "integrity": "ok",
+      "foreign_keys": "ok"
+    },
+    {
+      "database": "01_practice/07_Импорт_данных/practice.db",
+      "integrity": "ok",
+      "foreign_keys": "ok"
+    },
+    {
+      "database": "01_practice/09_Фильтрация_и_сортировка/practice.db",
+      "integrity": "ok",
+      "foreign_keys": "ok"
+    },
+    {
+      "database": "01_practice/10_Агрегатные_функции/practice.db",
+      "integrity": "ok",
+      "foreign_keys": "ok"
+    },
+    {
+      "database": "01_practice/12_Подзапросы/practice.db",
+      "integrity": "ok",
+      "foreign_keys": "ok"
+    },
+    {
+      "database": "01_practice/13_Индексы/practice.db",
+      "integrity": "ok",
+      "foreign_keys": "ok"
+    },
+    {
+      "replay": "01_practice/04_Создание_БД",
+      "statements": 5,
+      "status": "ok"
+    },
+    {
+      "replay": "01_practice/06_Ограничения/06_Изменение_структуры",
+      "statements": 30,
+      "status": "ok"
+    },
+    {
+      "replay": "01_practice/09_Фильтрация_и_сортировка",
+      "statements": 12,
+      "status": "ok"
+    },
+    {
+      "replay": "01_practice/10_Агрегатные_функции",
+      "statements": 10,
+      "status": "ok"
+    },
+    {
+      "replay": "01_practice/12_Подзапросы",
+      "statements": 9,
+      "status": "ok"
+    },
+    {
+      "replay": "01_practice/13_Индексы",
+      "statements": 12,
+      "status": "ok"
+    },
+    {
+      "diagram": "autosalon.drawio",
+      "xml": "ok"
+    },
+    {
+      "diagram": "restaurant.drawio",
+      "xml": "ok"
+    }
+  ]
+}
